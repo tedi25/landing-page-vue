@@ -43,6 +43,11 @@
 
 <script setup>
 import { ref } from 'vue'
+import Cookie from '@/assets/icons/cookie.png'
+import Pizza from '@/assets/icons/pizza.png'
+import Kebab from '@/assets/icons/kebab.png'
+import Salmon from '@/assets/icons/salmon.png'
+import Doughnut from '@/assets/icons/doughnut.png'
 
 const carousel = ref(null)
 
@@ -51,61 +56,61 @@ const categories = ref([
     name: 'Cupcake',
     items: 25,
     bgColor: 'bg-soft-primary-green',
-    imgSrc: 'src/assets/icons/cookie.png',
+    imgSrc: Cookie,
   },
   {
     name: 'Pizza',
     items: 23,
     bgColor: 'bg-soft-primary-teal',
-    imgSrc: 'src/assets/icons/pizza.png',
+    imgSrc: Pizza,
   },
   {
     name: 'Kebab',
     items: 12,
     bgColor: 'bg-soft-primary-blue',
-    imgSrc: 'src/assets/icons/kebab.png',
+    imgSrc: Kebab,
   },
   {
     name: 'Salmon',
     items: 22,
     bgColor: 'bg-soft-primary-magenta',
-    imgSrc: 'src/assets/icons/salmon.png',
+    imgSrc: Salmon,
   },
   {
     name: 'Doughnut',
     items: 15,
     bgColor: 'bg-soft-primary-lightgreen',
-    imgSrc: 'src/assets/icons/doughnut.png',
+    imgSrc: Doughnut,
   },
   {
     name: 'Cupcake',
     items: 25,
     bgColor: 'bg-soft-primary-green',
-    imgSrc: 'src/assets/icons/cookie.png',
+    imgSrc: Cookie,
   },
   {
     name: 'Pizza',
     items: 23,
     bgColor: 'bg-soft-primary-teal',
-    imgSrc: 'src/assets/icons/pizza.png',
+    imgSrc: Pizza,
   },
   {
     name: 'Kebab',
     items: 12,
     bgColor: 'bg-soft-primary-blue',
-    imgSrc: 'src/assets/icons/kebab.png',
+    imgSrc: Kebab,
   },
   {
     name: 'Salmon',
     items: 22,
     bgColor: 'bg-soft-primary-magenta',
-    imgSrc: 'src/assets/icons/salmon.png',
+    imgSrc: Salmon,
   },
   {
     name: 'Doughnut',
     items: 15,
     bgColor: 'bg-soft-primary-lightgreen',
-    imgSrc: 'src/assets/icons/doughnut.png',
+    imgSrc: Doughnut,
   },
 ])
 

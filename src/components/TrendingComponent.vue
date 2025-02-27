@@ -38,63 +38,74 @@
 <script setup>
 import { ref } from 'vue'
 import ButtonComponent from '@/components/ui/ButtonComponent.vue'
+import Four from '@/assets/icons/four-stars.png'
+import Three from '@/assets/icons/three-stars.png'
+import Five from '@/assets/icons/five-stars.png'
+import CupcakeChoco from '@/assets/images/cupcake-choco.png'
+import DonerKebab from '@/assets/images/doner-kebab.png'
+import DoughnutMilk from '@/assets/images/doughnut-milk.png'
+import DoughnutUnicorn from '@/assets/images/dougnut-unicorn.png'
+import KathiKebab from '@/assets/images/kathi-kebab.png'
+import SalmonRoll from '@/assets/images/salmon-roll.png'
+import PizzaMeat from '@/assets/images/pizzameat.png'
+import PizzaPaperoni from '@/assets/images/pizzapaperoni.png'
 
 const trending = ref([
   {
     name: 'Pizza Paperoni',
     type: 'Pizza',
     bgColor: 'bg-soft-primary-teal',
-    imgSrc: 'src/assets/images/pizzapaperoni.png',
-    stars: 'src/assets/icons/four-stars.png',
+    imgSrc: PizzaPaperoni,
+    stars: Four,
   },
   {
     name: 'Pizza Meat',
     type: 'Pizza',
     bgColor: 'bg-soft-primary-teal',
-    imgSrc: 'src/assets/images/pizzameat.png',
-    stars: 'src/assets/icons/three-stars.png',
+    imgSrc: PizzaMeat,
+    stars: Three,
   },
   {
     name: 'Doner Kebab',
     type: 'Kebab',
     bgColor: 'bg-soft-primary-blue',
-    imgSrc: 'src/assets/images/doner-kebab.png',
-    stars: 'src/assets/icons/five-stars.png',
+    imgSrc: DonerKebab,
+    stars: Five,
   },
   {
     name: 'Salmon Roll',
     type: 'Salmon',
     bgColor: 'bg-soft-primary-magenta',
-    imgSrc: 'src/assets/images/salmon-roll.png',
-    stars: 'src/assets/icons/four-stars.png',
+    imgSrc: SalmonRoll,
+    stars: Four,
   },
   {
     name: 'Cupcake Choco',
     type: 'Cupcake',
     bgColor: 'bg-soft-primary-green',
-    imgSrc: 'src/assets/images/cupcake-choco.png',
-    stars: 'src/assets/icons/four-stars.png',
+    imgSrc: CupcakeChoco,
+    stars: Four,
   },
   {
     name: 'Doughnut Milk',
     type: 'Doughnut',
     bgColor: 'bg-soft-primary-lightgreen',
-    imgSrc: 'src/assets/images/doughnut-milk.png',
-    stars: 'src/assets/icons/five-stars.png',
+    imgSrc: DoughnutMilk,
+    stars: Five,
   },
   {
     name: 'Doughnut Unicorn',
     type: 'Doughnut',
     bgColor: 'bg-soft-primary-lightgreen',
-    imgSrc: 'src/assets/images/dougnut-unicorn.png',
-    stars: 'src/assets/icons/four-stars.png',
+    imgSrc: DoughnutUnicorn,
+    stars: Four,
   },
   {
     name: 'Kathi Kebab',
     type: 'Kebab',
     bgColor: 'bg-soft-primary-blue',
-    imgSrc: 'src/assets/images/kathi-kebab.png',
-    stars: 'src/assets/icons/four-stars.png',
+    imgSrc: KathiKebab,
+    stars: Four,
   },
 ])
 </script>
