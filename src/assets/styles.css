@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-rubik: Rubik, 'sans-serif';
+  --color-primary-green: #8bac3e;
+  --color-soft-primary-green: #f0feeb;
+  --color-primary-teal: #40a2b1;
+  --color-soft-primary-teal: #e6f3f5;
+  --color-primary-blue: #405eb6;
+  --color-soft-primary-blue: #eaeefa;
+  --color-primary-magenta: #b23f74;
+  --color-soft-primary-magenta: #f9eef3;
+  --color-primary-lightgreen: #a3b441;
+  --color-soft-primary-lightgreen: #f3f7d9;
+}
